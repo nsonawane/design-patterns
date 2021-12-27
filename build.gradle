@@ -1,0 +1,9 @@
+allprojects {
+   group = 'com.nexgen'
+   version = '0.1.0'
+}
+
+subprojects {
+   apply plugin: 'java'
+   apply plugin: 'eclipse'
+}
